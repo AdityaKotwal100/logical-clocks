@@ -1,3 +1,12 @@
+# Logical Clock Project
+
+## Overview
+
+This project extends upon a distributed banking system to implement Lamport’s logical clock algorithm, ensuring event ordering across multiple customer and branch processes. By incorporating logical clocks, the system coordinates actions based on the "happens-before" relationship, maintaining consistency and order of transactions in a distributed environment.
+
+![Logical Clock Coordination in Distributed Banking System](img.png)
+
+
 Installation Steps:
 
 1. Install Python 3.11.X
